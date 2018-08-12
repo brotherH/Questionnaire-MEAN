@@ -1,0 +1,27 @@
+@mixin linkStyle($activeColor: #1e1e1e, $color:grey, $font-size:14px, $font-weight:500){
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  &.router-link-active{
+    color: $activeColor;
+  }
+}
+
+@mixin prefixer($property, $value, $prefixes: webkit moz) {
+  #{$property}: $value;
+
+  @each $prefix in $prefixes {
+    @if $prefix == webkit {
+      -webkit-#{$property}:#{$value};
+    }
+    @else if $prefix == moz {
+      -moz-#{$property}:#{$value};
+    }
+    @else if $prefix == o {
+      -o-#{$property}:#{$value};
+    }
+    @else if $prefix == ms {
+      -ms-#{$property}:#{$value};
+    }
+  }
+}

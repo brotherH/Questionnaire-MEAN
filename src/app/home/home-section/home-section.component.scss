@@ -1,0 +1,34 @@
+@import "../../../sass-abstracts/variables";
+
+:host{
+  text-align: center;
+  display: block;
+}
+
+a{
+  margin: 50px 0 50px 10px;
+  min-width: 20%;
+}
+
+p{
+  display: inline-block;
+  margin: 100px;
+  span{
+    font-weight: bold;
+    &:nth-child(-n + 1){
+      font-size: 1.5em;
+      margin-right: 10px;
+      color: $primary-color;
+    }
+  }
+}
+
+
+
+.mat-raised-button{
+  line-height: 50px;
+}
+
+section{
+
+}

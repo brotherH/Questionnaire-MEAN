@@ -1,0 +1,11 @@
+<section countTo [step]="13"
+         [countTo]="4231471"
+         [countFrom]="0"
+         [duration]="2"
+         (countoChange)="onCountToChange($event)"
+         (countoEnd)="onCountoEnd()">
+  <p>
+    <span>{{intermediate | addComma}}</span> <span>位用户正在使用!</span>
+  </p>
+  <a mat-raised-button color="primary">创建新问卷</a>
+</section>

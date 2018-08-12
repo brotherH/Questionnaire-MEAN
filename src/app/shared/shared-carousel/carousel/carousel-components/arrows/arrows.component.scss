@@ -1,0 +1,13 @@
+.carousel-nav{
+  button{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    &:first-child{
+      left: 35px;
+    }
+    &:last-child{
+      right:35px;
+    }
+  }
+}

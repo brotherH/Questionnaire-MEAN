@@ -1,0 +1,14 @@
+@import "../../../sass-abstracts/mixins";
+@import "../../../sass-abstracts/variables";
+
+mat-toolbar{
+  height: 48px;
+  a {
+    @include linkStyle();
+
+    &.toolbar-seprator{
+      flex: 1 1 auto;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+:host {
+  text-align: center;
+  display: block; }
+
+a {
+  margin: 50px 0 50px 10px;
+  min-width: 20%; }
+
+p {
+  display: inline-block;
+  margin: 100px; }
+  p span {
+    font-weight: bold; }
+    p span:nth-child(-n + 1) {
+      font-size: 1.5em;
+      margin-right: 10px;
+      color: #134A9F; }
+
+.mat-raised-button {
+  line-height: 50px; }
+
+/*# sourceMappingURL=home-section.component.css.map */

@@ -1,0 +1,12 @@
+<div class="carousel-nav">
+  <button mat-mini-fab (click)="onChangeSlide('prev')" color="accent"
+          [disabled]="disableElement">
+    <mat-icon>chevron_left</mat-icon>
+  </button>
+
+  <button mat-mini-fab (click)="onChangeSlide('next')" color="accent"
+          [disabled]="disableElement"
+          >
+    <mat-icon>chevron_right</mat-icon>
+  </button>
+</div>

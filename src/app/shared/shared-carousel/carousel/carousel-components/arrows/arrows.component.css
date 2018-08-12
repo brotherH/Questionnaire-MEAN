@@ -1,0 +1,10 @@
+.carousel-nav button {
+  position: absolute;
+  top: 50%;
+  cursor: pointer; }
+  .carousel-nav button:first-child {
+    left: 35px; }
+  .carousel-nav button:last-child {
+    right: 35px; }
+
+/*# sourceMappingURL=arrows.component.css.map */

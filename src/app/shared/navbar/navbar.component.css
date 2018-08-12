@@ -1,0 +1,12 @@
+mat-toolbar {
+  height: 48px; }
+  mat-toolbar a {
+    color: grey;
+    font-size: 14px;
+    font-weight: 500; }
+    mat-toolbar a.router-link-active {
+      color: #1e1e1e; }
+    mat-toolbar a.toolbar-seprator {
+      flex: 1 1 auto; }
+
+/*# sourceMappingURL=navbar.component.css.map */
